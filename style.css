@@ -2,6 +2,7 @@
 *{
   box-sizing: border-box;
   margin: 0px;
+  font-family: "Poppins";
 }
 
 
@@ -222,7 +223,7 @@
 
 
 .center_parent{
-  height: 270px;
+  height: auto;
   width: 80%;
   background-color: white;
   /* border:1px solid red; */
@@ -259,3 +260,101 @@
 }
 
 
+
+/* status css start */
+
+.main_status{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+
+.box{
+  /* border: 1px solid blue; */
+  width: 23%;
+  border-radius: 10px;
+  height: auto;
+}
+
+
+.box > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+
+/* create btn css  */
+
+.create_btn{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: -3.2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 10px 21px 32px -26px rgba(0,0,0,0.57);
+  -moz-box-shadow: 10px 21px 32px -26px rgba(0,0,0,0.57);
+  box-shadow: 10px 21px 32px -26px rgba(0,0,0,0.57);
+  cursor: pointer;
+}
+
+.create_btn > i{
+  background-color: white;
+  border-radius: 50%;
+  color: blue;
+  font-size: 1.9rem;
+  position: relative;
+  top: -0.9rem;
+  border: 5px solid white;
+
+}
+
+
+
+
+#create_story{
+  font-size: 0.7rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.9rem;
+
+}
+
+
+/* images circle css */
+
+
+#img_circle{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 5px solid blue;
+  position: relative;
+  top: -12.4rem;
+  left: 0.6rem;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+
+#status_names{
+  font-size: 0.9rem;
+
+  position: relative;
+  top: -5rem;
+  text-align: center;
+  color: white;
+
+
+}
