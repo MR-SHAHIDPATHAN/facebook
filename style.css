@@ -358,3 +358,186 @@
 
 
 }
+
+
+/* post parent  css start*/
+
+
+
+.main_parent{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+
+.post_parent{
+  width: 80%;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+}
+
+.create_content > img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* padding: 0.5rem; */
+
+}
+
+
+.create_content{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+
+.create_content > input{
+  padding: 0.7rem;
+  margin-left:1rem ;
+  background-color: #eef0ee;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+
+}
+
+
+.parent_icons{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.icn{
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+
+}
+
+.icn:hover{
+  background-color: rgb(240, 239, 239);
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.icn > i{
+  font-size: 1.4rem;
+}
+
+
+.icn > span{
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: rgb(94, 93, 93);
+}
+
+
+.icon1 {
+  color: rgb(255, 0, 81);
+}
+
+.icon2{
+  color: rgb(22, 255, 45);
+}
+
+
+.icon3{
+  color: rgb(255, 140, 0);
+}
+
+/* .post_parent{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+} */
+
+/* .post_main{
+  height: auto;
+  width: 80%;
+  background-color: white; */
+  /* border:1px solid red; */
+  /* border-radius: 10px;
+  padding: 0.5rem; */
+
+/* } */
+
+/* .write_text { */
+  /* border: 1px solid red; */
+  /* display: flex; */
+  /* align-items: center; */
+  
+/* } */
+
+
+
+/* .write_text > img{ */
+  /* width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size:cover;
+  background-position: center center; */
+
+
+/* }
+
+.write_text > input {
+  padding: 0.7rem;
+  margin-left:1rem ;
+  background-color: #eef0ee;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+} */
+
+
+/* .hr_line{
+  margin-top: 0.5rem;
+  color: gray;
+ 
+} */
+
+/* .icons{
+  /* border: 1px solid red; */
+  /* padding: 0.5rem; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+/* } */ */
+ /* .icn{ */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem; */
+ 
+
+/* } */
+
+/* .icn > span{
+  margin-left: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.icon1{
+  color: rgb(255, 43, 78);
+
+}
+
+
+.icon2{
+  color: rgb(49, 179, 49);
+} */
+
+/* .icon3{
+  color: rgb(255, 216, 20);
+} */
